@@ -24,6 +24,7 @@ Restart AuditD service
  yum install git -y
  git clone https://github.com/abhilashmadhu24/python_audit_check.git
  cd python_audit_check
+ NOW RUN SOME SAMPLE COMMANDS AS EXPECTED USER AND RUN BELOW
  python3 audit_report.py <user_name> <time stamb eg: startDate=YYYY-MM-DD|today|yesterday|this-week]>
 ```
 ```
