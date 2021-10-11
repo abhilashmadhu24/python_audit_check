@@ -10,8 +10,8 @@ ADD BELOW LINES
 
 Restart AuditD service
 ```
-> service stop auditd
-> service start auditd
+> service auditd stop
+> service auditd start
 ```
 
  Install python 3
