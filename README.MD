@@ -10,20 +10,21 @@ ADD BELOW LINES
 
 Restart AuditD service
 ```
-> service auditd stop
-> service auditd start
+ service auditd stop
+ service auditd start
 ```
 
  Install python 3
 ```
-> yum install python3
+ yum install python3 -y
 ```
 
  Copy python script provided
 ```
-> git clone https://github.com/abhilashmadhu24/python_audit_check.git
-> cd python_audit_check
-> python3 audit_report.py <user_name> <time stamb eg: startDate=YYYY-MM-DD|today|yesterday|this-week]>
+ yum install git -y
+ git clone https://github.com/abhilashmadhu24/python_audit_check.git
+ cd python_audit_check
+ python3 audit_report.py <user_name> <time stamb eg: startDate=YYYY-MM-DD|today|yesterday|this-week]>
 ```
 ```
 eg : python3 audit_report.py alice today
