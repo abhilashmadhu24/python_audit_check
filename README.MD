@@ -1,5 +1,5 @@
 ```
-yum install auditd audispd-plugins -y
+yum install audit audispd-plugins -y
 vi /etc/audit/rules.d/audit.rules
 ```
 ADD BELOW LINES
